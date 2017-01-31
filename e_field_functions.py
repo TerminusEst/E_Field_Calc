@@ -126,7 +126,7 @@ def MultiECalc(ZZ, minute_bx, minute_by):
 	return ex[1440:], ey[1440:]
 
 
-def e_calc(bx, by, timedate_float, cond):
+def PlaneE(bx, by, timedate_float, cond):
 	""" Plane wave method of calculating E-field"""
 	dbx, dby = [], []
 	for t in range(len(bx)-1):
